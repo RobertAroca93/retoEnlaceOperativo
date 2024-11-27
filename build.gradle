@@ -33,10 +33,16 @@ ext {
     cucumberVersion = '6.11.0'
     slf4jVersion = '2.0.6'
     javaFakerVersion = '1.0.2'
+    lombokVersion = '1.18.22'
 }
 
 
 dependencies {
+    compileOnly "org.projectlombok:lombok:${lombokVersion}"
+    testCompileOnly "org.projectlombok:lombok:${lombokVersion}"
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    
     implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
             "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
