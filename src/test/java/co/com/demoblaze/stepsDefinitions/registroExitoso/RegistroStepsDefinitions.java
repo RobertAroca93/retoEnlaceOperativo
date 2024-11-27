@@ -19,7 +19,7 @@ import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 @RequiredArgsConstructor
-public class registroStepsDefinitions extends SetUp {
+public class RegistroStepsDefinitions extends SetUp {
 
 
     @Managed
