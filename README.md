@@ -46,9 +46,9 @@ src/test/resources/features.
 Para ejecutar un escenario específico, asegúrate de que el archivo de características esté correctamente configurado en
 la carpeta correspondiente.
 
-- ** RegistroTest.java**: ejecuta el escenario para el registro exitoso.
-- ** LoginTest.java**: ejecuta el escenario para el login.
-- ** AgregarProductosTest.java**: agrega los productos al carrito y valida que el monto sea igual al total.
+- **RegistroTest.java**: Ejecuta el escenario para el registro exitoso.
+- **LoginTest.java**: Ejecuta el escenario para el login.
+- **AgregarProductosTest.java**: Agrega los productos al carrito y valida que el monto sea igual al total.
 
 ## Contribución
 
