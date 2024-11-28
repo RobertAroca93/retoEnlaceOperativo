@@ -1,7 +1,7 @@
 #language: es
 #encoding: utf-8
 
-Característica: Login en la tienda viertual demoblaze
+Característica: Login en la tienda virtual demoblaze
 
   @LoginExitoso
   Escenario: Registro Exitoso

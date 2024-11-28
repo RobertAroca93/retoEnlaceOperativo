@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Login en la tienda virtual demoblaze" skipped="0" tests="1" time="20.13" timestamp="2024-11-27 04:24:18"><testcase name="Registro Exitoso"><failure message="&#13;&#10;Expected: &quot;Log out&quot;&#13;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">&#13;
+Expected: "Log out"&#13;
+     but: was ""</failure><system-err>&#13;
+Expected: "Log out"&#13;
+     but: was ""&#13;
+co.com.demoblaze.stepsDefinitions.login.LoginStepsDefinitions.se_debe_mostrar_el_titulo_welcome(LoginStepsDefinitions.java:58)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

@@ -13,5 +13,7 @@ public class FakerDataGenerator {
     public static final String USERNAME_LOGIN = USERNAME_RANDOM;
     public static final String PASSWORD_LOGIN = PASSWORD_RANDOM;
 
+    public static final double TOTAL_ESPERADO = 2010.0;
+
 
 }
